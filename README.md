@@ -36,5 +36,5 @@
 
 ​		项目实践：https://blog.csdn.net/Gabrielle_OyO/article/details/120106103
 
-​		源码资源：https://github.com/Gabrielle-OyO/AliOS-Things-rel_3.1.0
+​		源码资源：https://github.com/Gabrielle-OyO/AliOS-Things-rel_3.1.0/tree/main/AliOS
 

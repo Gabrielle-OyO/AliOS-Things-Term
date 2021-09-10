@@ -22,13 +22,6 @@ X = tf.placeholder(dtype=tf.float32,shape=[None,784],name='X')
 Y = tf.placeholder(dtype=tf.float32,shape=[None,10],name='Y')
  
 # 定义各个参数：
-#W1 = tf.get_variable('W1',[784,128],initializer=tf.contrib.layers.xavier_initializer())
-#b1 = tf.get_variable('b1',[128],initializer=tf.zeros_initializer())
-#W2 = tf.get_variable('W2',[128,64],initializer=tf.contrib.layers.xavier_initializer())
-#b2 = tf.get_variable('b2',[64],initializer=tf.zeros_initializer())
-#W3 = tf.get_variable('W3',[64,10],initializer=tf.contrib.layers.xavier_initializer())
-#b3 = tf.get_variable('b3',[10],initializer=tf.zeros_initializer())
-
 W1 = tf.get_variable('W1',[784,128],initializer=tf.truncated_normal_initializer())
 b1 = tf.get_variable('b1',[128],initializer=tf.zeros_initializer())
 W2 = tf.get_variable('W2',[128,64],initializer=tf.truncated_normal_initializer())

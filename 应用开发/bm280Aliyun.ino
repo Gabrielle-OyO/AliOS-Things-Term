@@ -8,11 +8,11 @@
 AliyunIoTSDK iot;
 WiFiClient   espClient;
 //以下信息需要自己修改
-#define WIFI_SSID        "5a517517"		//替换自己的WIFI
-#define WIFI_PASSWD      "5a517517"		//替换自己的WIFI
-#define PRODUCT_KEY      "a10UcGK3Uje" 	//替换自己的PRODUCT_KEY
-#define DEVICE_NAME      "03nP762VYPr3QMW2" 	//替换自己的DEVICE_NAME
-#define DEVICE_SECRET    "5fab37d7b9371c23a1b82b52eaf94ce6"//替换自己的DEVICE_SECRET
+#define WIFI_SSID        "ONEPLUS_co_aponof"		//替换自己的WIFI
+#define WIFI_PASSWD      "123456"		//替换自己的WIFI
+#define PRODUCT_KEY      "a1MTqKQXZ4M" 	//替换自己的PRODUCT_KEY
+#define DEVICE_NAME      "Unit01" 	//替换自己的DEVICE_NAME
+#define DEVICE_SECRET    "3875cd945587f2371efab9e3d4a92dca"//替换自己的DEVICE_SECRET
 #define REGION_ID "cn-shanghai"
 
 Adafruit_BMP280 bmp; // use I2C interface
